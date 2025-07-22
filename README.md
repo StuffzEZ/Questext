@@ -1,4 +1,4 @@
-# 👀 ReaderView 👀
+# 👀 Questext 👀 (Pronounced Quest-Ext)
 This tool allows you to view text while answering questions on Sparx Reader.
 
 ## Installation
@@ -6,3 +6,5 @@ This tool allows you to view text while answering questions on Sparx Reader.
 - Go to the Tampermonkey extension, and click `Create a new script...`
 - Copy the text in the `readerView.js` file above.
 - Select all of the existing code and paste the code and hit Ctrl-S/⌘-S to save. The program will run automatically.
+
+A Fork Of Sparxist/Readerview
