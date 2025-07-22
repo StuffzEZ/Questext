@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "SR-Text",
+  "version": "1",
+  "description": "Allows you to view the text on Sparx Reader whilst answering questions",
+  "author": "StuffzEZ/Stuf_y",
+  "permissions": [],
+  "host_permissions": ["*://reader.sparx-learning.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://reader.sparx-learning.com/*"],
+      "js": ["readerView.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
